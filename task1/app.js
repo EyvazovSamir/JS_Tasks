@@ -1,3 +1,4 @@
+// A: done ✅
 let width = prompt("Enter width:");
 let height = prompt("Enter height:");
 let area = Number(width) * Number(height);
