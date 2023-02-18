@@ -7,7 +7,8 @@ let username = prompt("Enter username:");
 // A: eladir, zehmet olmasa, `${}` ile edek
 console.log("~ ~ " + username + " ~ ~");
 
-let width = prompt("Enter width = ");
+// A: eded-i Number-e prompt edende cevirek: // Number(prompt()) kimi
+let width = prompt("Enter width = "); 
 let length = prompt("Enter length = ");
 let cemi = (Number(width) + Number(length)) * 2;
 console.log(cemi);
