@@ -4,6 +4,7 @@ let adSoyad = ad + " " + soyad;
 console.log(adSoyad);
 
 let username = prompt("Enter username:");
+// A: eladir, zehmet olmasa, `${}` ile edek
 console.log("~ ~ " + username + " ~ ~");
 
 let width = prompt("Enter width = ");
