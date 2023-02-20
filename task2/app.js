@@ -10,6 +10,7 @@ console.log(`~ ~ ${username} ~ ~`);
 
 // A: eded-i Number-e prompt edende cevirek: // Number(prompt()) kimi
 // S: done!
+// A: perfect!
 let width = Number(prompt("Enter width = "));
 let length = Number(prompt("Enter length = "));
 let cemi = (width + length) * 2;
