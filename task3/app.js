@@ -42,12 +42,15 @@ console.log(Math.max(eded1, eded2, eded3));
 let number1 = Number(prompt("Enter first number: "));
 let number2 = Number(prompt("Enter second number: "));
 let number3 = Number(prompt("Enter third number: "));
-// A: else-e yazma. cunki, diger hallarda da ola biler, else-e daxil olsun. 
+
+// A: else-e yazma. cunki, diger hallarda da ola biler, else-e daxil olsun.
+// S: done!
+
 if (number1 >= number2 && number1 >= number3) {
   console.log(number1);
 } else if (number2 >= number1 && number2 >= number3) {
   console.log(number2);
-} else {
+} else if (number3 >= number1 && number3 >= number2) {
   console.log(number3);
 }
 
