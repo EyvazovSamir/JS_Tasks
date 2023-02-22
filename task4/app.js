@@ -1,7 +1,7 @@
 // user tip task
 
 let userTip = prompt("Siz kimsiz?");
-
+// A: done
 switch (userTip) {
   case "user":
     console.log("xos geldin istifadeci");
@@ -17,7 +17,7 @@ switch (userTip) {
 }
 
 // fizzbuzz task
-
+// A: done
 let num = prompt("enter number: ");
 
 if (num % 15 === 0) {
@@ -33,7 +33,7 @@ if (num % 15 === 0) {
 // 2 reqem task
 
 let eded = Number(prompt("Enter eded: "));
-
+// A: done
 if ((eded >= 10 && eded < 100) || (eded <= -10 && eded > -100)) {
   console.log("eded iki reqemlidir");
 } else {
@@ -41,7 +41,7 @@ if ((eded >= 10 && eded < 100) || (eded <= -10 && eded > -100)) {
 }
 
 // 2ye ve 5e bolunen eded task
-
+// A: done
 let ed = Number(prompt("Enter eded: "));
 
 if (ed % 2 === 0 && ed % 5 === 0) {
@@ -51,7 +51,7 @@ if (ed % 2 === 0 && ed % 5 === 0) {
 }
 
 // cemi 100den cox task
-
+// A: done
 let number1 = Number(prompt("Enter first number: "));
 let number2 = Number(prompt("Enter second number: "));
 let number3 = Number(prompt("Enter third number: "));
