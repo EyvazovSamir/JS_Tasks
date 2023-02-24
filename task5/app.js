@@ -1,5 +1,5 @@
 // task1 random number
-
+// A: ela
 let randomNumber = Math.floor(Math.random() * 100 + 1);
 let count = 1;
 let userNumber = +prompt("Number?");
@@ -26,7 +26,7 @@ if (count === 1) {
 }
 
 // task2 sum 1 to number
-
+// Super
 let number = +prompt("Enter number: ");
 let sum = 0;
 
@@ -36,7 +36,7 @@ for (i = 1; i <= number; i++) {
 console.log(`${sum}`);
 
 // task3 ****
-
+// mohtesem
 for (let j = 3; j >= 0; j--) {
   for (let i = 0; i <= j; i++) {
     document.write("*");
@@ -45,7 +45,7 @@ for (let j = 3; j >= 0; j--) {
 }
 
 // task4 * 1 to number
-
+// ela
 let num = +prompt("Enter number: ");
 let mul = 1;
 
