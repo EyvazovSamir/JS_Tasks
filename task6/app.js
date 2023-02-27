@@ -4,23 +4,23 @@ function getNumbers() {
   return +prompt("enter number: ");
 }
 
-function pow() {
+function pow(number1, number2) {
   return number1 ** number2;
 }
 
-function add() {
+function add(number1, number2) {
   return number1 + number2;
 }
 
-function subtract() {
+function subtract(number1, number2) {
   return number1 - number2;
 }
 
-function multiply() {
+function multiply(number1, number2) {
   return number1 * number2;
 }
 
-function divide() {
+function divide(number1, number2) {
   return number1 / number2;
 }
 
