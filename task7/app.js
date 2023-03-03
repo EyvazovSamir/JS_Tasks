@@ -19,11 +19,12 @@ fourth(2);
 
 // 4
 
-for (i = 100; i < 1000; i++) {
-  if (i % 10 === 0) {
+const endsWithZero = () => {
+  for (i = 100; i <= 990; i += 10) {
     console.log(i);
   }
-}
+};
+endsWithZero();
 
 //  5
 let cem = 0;
@@ -37,16 +38,19 @@ console.log(cem);
 
 // 6
 
-let userNumber = +prompt("Enter number: ");
+let ed = 49;
 let sum = 0;
+let ilkBolunen = 0;
 
-for (i = 100; i < 1000; i++) {
-  if (i % userNumber === 0) {
-    sum += i;
+for (i = 100; i <= 200; i++) {
+  if (i % ed === 0) {
+    ilkBolunen = i;
+    break;
   }
 }
-
-console.log(sum);
+for (let i = ilkBolunen; i <= 999; i += ed) {
+  console.log(i);
+}
 
 // 7
 
