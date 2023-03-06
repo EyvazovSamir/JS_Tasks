@@ -31,6 +31,7 @@ function showAnswer(func) {
 let number1 = getNumbers();
 let number2 = getNumbers();
 // A: asagidaki funksiyalar argument almir, amma biz vermishik. Yuxarida paramterleri qeyd et z/o
+// A: dogru
 let power = pow(number1, number2);
 let sum = add(number1, number2);
 let sub = subtract(number1, number2);
