@@ -45,6 +45,7 @@ let number3 = Number(prompt("Enter third number: "));
 
 // A: else-e yazma. cunki, diger hallarda da ola biler, else-e daxil olsun.
 // S: done!
+// A: ela
 
 if (number1 >= number2 && number1 >= number3) {
   console.log(number1);
