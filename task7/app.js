@@ -1,5 +1,5 @@
 // 1
-// A: done 
+// A: done
 const logGreeting = () => console.log("Samir is a JS developer");
 logGreeting();
 
@@ -63,16 +63,15 @@ add(3, 5, console.log);
 
 // 8
 // A: switch-le yazsaq ela olar
-const formal = (cins) => {
-  if (cins === "M") {
-    return (name) => console.log(`Cenab ${name}`);
-  } else if (cins === "W") {
-    return (name) => console.log(`Xanim ${name}`);
+// S: done!
+const formal = (cins, name) => {
+  switch (cins) {
+    case "M":
+      return `Cenab ${name}`;
+    case "W":
+      return `Xanim ${name}`;
   }
 };
 
-const formalMan = formal("M");
-formalMan("Samir");
-
-const formalWoman = formal("W");
-formalWoman("Leyla");
+console.log(formal("M", "Samir"));
+console.log(formal("W", "Leyla"));
