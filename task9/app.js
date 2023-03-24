@@ -1,3 +1,4 @@
+// A: ehsen
 let calculator = {
   read() {
     this.num1 = +prompt("enter number1: ");
