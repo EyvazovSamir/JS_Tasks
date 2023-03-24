@@ -244,10 +244,7 @@ arr.forEach((user) => {
 
 // Bir funksiya yazin ki, yuxaridaki arraydan userin adini verim mene hemin obyekti geri qaytarsin.
 // A: daha optimal yaza bilersen. find-a diqqetle bax z.o
-function getUserName(name) {
-  return arr.find((user) => {
-    if (user.name === name) return user;
-  });
-}
+// S: updated ✅
+const getUserName = (name) => arr.find((user) => user.name === name);
 
 console.log(getUserName("Glenna Reichert"));

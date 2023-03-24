@@ -29,9 +29,10 @@ snakeToKebab("BU_TEST_UCUNDUR");
 
 // nameFormat(str) —> Alion GreenHeart-=> Alion G.
 // A: daha yaxsi yaza bilersen, slice ile ( little bittle update 💹 )
+// S: updated 💹
 function nameFormat(str) {
-  let name = str.split(" ");
-  return name[0] + " " + name[1][0] + ".";
+  let indexOfEmpty = str.indexOf(" ");
+  return str.slice(0, indexOfEmpty + 2) + ".";
 }
 
 console.log(nameFormat("Alion GreenHeart"));
