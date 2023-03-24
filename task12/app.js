@@ -232,7 +232,7 @@ const arr = [
 ];
 
 // userlerin username-lerini ve email-lerini ve islediyi shirketin adini ekrana yazdirin.
-
+// A: ela
 arr.forEach((user) => {
   document.write(
     ` Username: ${user.username} <br/>
