@@ -64,6 +64,7 @@ add(3, 5, console.log);
 // 8
 // A: switch-le yazsaq ela olar
 // S: done!
+// A: ehsen!
 const formal = (cins, name) => {
   switch (cins) {
     case "M":
