@@ -1,5 +1,5 @@
 // repeatedSymbolCounter('ALIONALI', 'A') // return 2 -> must be done with for loop!!!!
-
+// A: dogru
 const repeatedSymbolCounter = (str, letter) => {
   count = 0;
   for (i = 0; i < str.length; i++) {
@@ -12,7 +12,7 @@ repeatedSymbolCounter("ALIONALI", "A");
 console.log(count);
 
 // capitalize(str) -> alion -=> Alion
-
+// A: dogru
 function capitalize(str) {
   console.log(str.replace(str[0], str[0].toUpperCase()));
 }
@@ -20,7 +20,7 @@ function capitalize(str) {
 capitalize("alion");
 
 // to kebab-case
-
+// A: dogru
 function snakeToKebab(str) {
   console.log(str.toLowerCase().replaceAll("_", "-"));
 }
@@ -28,7 +28,7 @@ function snakeToKebab(str) {
 snakeToKebab("BU_TEST_UCUNDUR");
 
 // nameFormat(str) —> Alion GreenHeart-=> Alion G.
-
+// A: daha yaxsi yaza bilersen, slice ile ( little bittle update 💹 )
 function nameFormat(str) {
   let name = str.split(" ");
   return name[0] + " " + name[1][0] + ".";
@@ -42,7 +42,7 @@ console.log(nameFormat("Alion GreenHeart"));
 // console.log(ad.trim());
 
 // Funksiya yaradin, ilk characterimizi deyisek: ilkHerfiDeyis(soz, ilkHerf)
-
+// A: dogru
 function changeFirstLetter(word, firstLetter) {
   console.log(word.replace(word[0], firstLetter));
 }
@@ -57,7 +57,7 @@ function splitMeth(str) {
 console.log(splitMeth("I am JS-developer"));
 
 // removeCharacterFromString("Alion","A") -> "lion" .
-
+// A: dogru
 function removeCharacterFromString(name, letter) {
   console.log(name.replaceAll(letter, ""));
 }
@@ -65,7 +65,7 @@ function removeCharacterFromString(name, letter) {
 removeCharacterFromString("Alion", "A");
 
 // verify gmail address.
-
+// A: dogru
 function verifyGmail(address) {
   if (address.length >= 15 && address.endsWith("@gmail.com")) {
     console.log(`Your email address is ${address}`);
@@ -78,7 +78,7 @@ verifyGmail(prompt("Enter your email address: "));
 // // school func
 
 let date = new Date();
-
+// A: dogru
 function schoolday() {
   if (date.getDay() >= 1 && date.getDay() <= 5) {
     alert("You have to go to school 😔");
@@ -102,7 +102,7 @@ const week = {
   5: "Friday",
   6: "Saturday",
 };
-
+// A: dogru
 let dayOfTheWeek = new Date();
 document.write(week[dayOfTheWeek.getDay()]);
 document.write("<br/>");
@@ -123,13 +123,13 @@ const month = {
   10: "November",
   11: "December",
 };
-
+// A: dogru
 let monthNow = new Date();
 document.write(month[monthNow.getMonth()]);
 document.write("<br/>");
 
 // left to live 😢
-
+// A: dogru
 let yourAge = +prompt("Enter your age: ");
 const ezrail = (yourAge) => {
   return 77 - yourAge;
@@ -138,7 +138,7 @@ let years = ezrail(yourAge);
 alert(`You have ${years} years to live 😦`);
 
 //  how many years, months, days, hours, minutes, seconds have passed
-
+// A: elasan
 function time() {
   let date = Date.now();
   let birthDate = new Date(prompt("Enter your birth day: "));
