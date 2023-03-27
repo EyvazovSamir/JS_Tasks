@@ -1,3 +1,4 @@
+// A: done as 🐉
 const body = document.querySelector("body");
 const greyCircle = document.querySelector(".grey");
 const redCircle = document.querySelector(".red");
