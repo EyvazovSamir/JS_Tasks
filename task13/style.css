@@ -1,0 +1,24 @@
+.container {
+  text-align: center;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.grey {
+  background-color: grey;
+}
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+.yellow {
+  background-color: yellow;
+}
