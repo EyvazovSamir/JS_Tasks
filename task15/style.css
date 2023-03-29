@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+}
+
+#root {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.card {
+  margin: 20px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  text-align: center;
+}
+
+.img {
+  border-radius: 10px;
+}
+
+.job {
+  text-align: center;
+  font-weight: 400;
+}
+
+.card:hover {
+  box-shadow: 0px 3px 7px 2px white;
+}
