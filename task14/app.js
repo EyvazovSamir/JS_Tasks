@@ -1,3 +1,4 @@
+// A: best killer 🗡
 const valueElem = document.getElementById("value");
 const buttonElem = document.getElementById("button");
 const circleElem = document.getElementById("circle");
